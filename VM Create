@@ -1,0 +1,1 @@
+az vm create -n Leo-linux-vm --size "Standard_B1s" --image "Canonical:UbuntuServer:18.04-LTS:latest" --admin-username "bill" --assign-identity --generate-ssh-keys
